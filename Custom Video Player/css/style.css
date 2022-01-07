@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Questrial', 'sans-serif';
+	background-color: #666;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-height: 100vh;
+	margin: 0;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+
+.screen {
+	cursor: pointer;
+	background-color: #000 !important;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 125%;
+}
+
+.controls {
+	background: #333;
+	color: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	width: 125%;
+}
+
+.controls .btn {
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+.controls .fa-play {
+	color: #28a745;
+}
+
+.controls .fa-stop {
+	color: #dc3545;
+}
+
+.controls .fa-pause {
+	color: #fff;
+}
+
+.controls .timestamp {
+	color: #fff;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.btn:focus {
+	outline: 0;
+}
+
+@media (max-width: 800px) {
+	.screen,
+	.controls {
+		width: 90%;
+	}
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: row;
+}
+
+.creator-name {
+	width: 500px;
+	height: 50px;
+}
+
+#name {
+	text-align: center;
+	font-size: 25px;
+	color: orange;
+	font-style: inherit;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-github {
+	padding-top: 28px;
+}
+#link {
+	padding-top: 28px;
+	font-size: 25px;
+	color: goldenrod;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-left: 10px;
+}
+
+#link:hover {
+	color: blue;
+}
+
+#love {
+	display: flex;
+	justify-content: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+.fa-heart {
+	color: pink;
+}
